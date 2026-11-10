@@ -2,6 +2,24 @@
 
 A Java graph coursework project with binary-search-tree maps/sets, a bounded priority queue, and friend recommendations by degree, common neighbors, and weighted common neighbors.
 
+## Example walkthrough
+
+For fictional node 1, node 4 has two common neighbors, node 5 has one, and node 6 has zero. The user and existing friends are excluded. The example prints every graph edge.
+
+![Synthetic example output](docs/demo-output.svg)
+
+Run from the repository root. For Java, create `build` if it does not already exist:
+
+```sh
+mkdir build
+javac --release 8 -encoding UTF-8 -d build src/*.java examples/*.java
+java -cp build FriendRecommendationDemo
+```
+
+[Runnable example](examples/) · [Plain-text output](examples/output.txt)
+
+The example and output visual were added for this portfolio in November 2026 using newly authored synthetic inputs. They are separate from the original coursework.
+
 ## Course and original date
 
 - **Course / المادة:** CSC 212 - Data Structures / هياكل البيانات, King Saud University.
